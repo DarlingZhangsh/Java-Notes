@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: movie
+server:
+  port: 8003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8076/eureka/
+  instance:
+    prefer-ip-address: true #使用ip的方式注册自己的服务
