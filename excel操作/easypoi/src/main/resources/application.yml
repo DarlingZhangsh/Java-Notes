@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /poi
+  port: 9999
